@@ -1,0 +1,19 @@
+<!DOCTYPE HTML>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Yves Lelievre</title>
+    <style>body { padding: 0; margin: 0; }</style>
+    <link rel="stylesheet" href="https://unpkg.com/tachyons@4/css/tachyons.min.css">
+  </head>
+
+  <body>
+
+    <pre id="application"></pre>
+
+    <script type="text/javascript" src="./Application.js"></script>
+    <script type="text/javascript">
+      var app = Elm.Application.init({ node: document.getElementById("application") });
+    </script>
+  </body>
+</html>
